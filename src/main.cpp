@@ -303,7 +303,7 @@ void init()
 	interfaz[5].Init("../files/Texturas/cselector.png");
 	color1D.CargarTextura1D(textColor,256);
 	for(int i=0;i<CantidadInterfaz; i++) interfaz[i].CargarTextura2D();
-	vol.Init("../files/Texturas/Bucky32x32x32.raw");
+	vol.Init("../files/Modelos/Bucky32x32x32.raw");
 	dibujarVolumen=false;
 	if(vol.CargarVolumen())
 		dibujarVolumen=true;

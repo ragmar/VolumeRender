@@ -1,12 +1,15 @@
 # Volume Rendering
 This is a project created by Alejandro Sans (sansalejandro@gmail.com) and Víctor Felipe for a Computer Graphic course (Universidad Central de Venezuela). 
 
-This project show the technique displaying Volume Rendering with texture 2D. It has a transparency function that allows to hide and show the slice of the volume.
+This project show the technique Volume Rendering using Texture 2D (Object Aligned Planes). It has a transparency function that allows to hide and show the slice of the volume.
 
 To load a volume, the file must be on the folder "files/Modelos". It should be a .raw file and the number of slices in each axis must be separated by an "x", as shown as follow:
 
 - files/Modelos/Bonsai512x512x182.raw
 
+You should insert the name of the file without the extension, but with the slices  in the field "Nombre". Then hit the button "Cargar Modelo".
+
+This project has included 3 .raw files on the folder "files/Modelos"
 # Compiling
 
 This project requires compiling with visual studio 2015 and the following external libraries:
